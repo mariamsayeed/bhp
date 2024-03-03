@@ -7,7 +7,7 @@ import json
 
 
 # Load the trained model
-model_file = "C:\\Users\\MARIAM\Desktop\\banglore_home_prices_model.pickle"
+model_file = 'banglore_home_prices_model.pickle'
 
 model = pickle.load(open(model_file, 'rb'))
 
